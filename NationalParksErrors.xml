@@ -5,7 +5,9 @@
      (3) Phone element missing (Joshua Tree)
      (4) Address element has no closing tag (Saguaro)
      (5) Two Name elements in one park (Death Valley) -->
-<NationalPark>
+<NationalPark xmlns="https://asuvc.github.io/CSE445-Assignment4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://asuvc.github.io/CSE445-Assignment4 https://asuvc.github.io/CSE445-Assignment4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
